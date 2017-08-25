@@ -1,6 +1,8 @@
 .topnav{
     background-color:#bb0000;
     overflow: hidden;
+    border: solid black 1px;
+
 }
 .topnav a{
     float:left;
@@ -21,15 +23,29 @@
     background-color: black;
     color: white;
 }
+.footer{
+    background-color: #bb0000;
+    font-family: sans-serif;
+    vertical-align: top;
+    border: solid black 1px;
+    
+    }
+.footer p{
+    margin-left: 10px;
+}
 .homepage{
-    font-family:Helvetica;
+   font-family:Helvetica;
     color:white;
-    background-image: url('placeholderImage.jpg');
+    font-size: 1.25em;
+    background-image: url('fencingBanner1.jpg');
     background-position: center top;
 	background-size: cover;
     padding: 250px 0;
-	margin: 30px;
     text-align: center;
+    display: block;
+}
+.homepage h1{
+    text-shadow: 2px 2px #bb0000;
 }
 .infoDiv{
     background-color: lightgray;

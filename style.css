@@ -1,0 +1,91 @@
+.topnav{
+    background-color:#bb0000;
+    overflow: hidden;
+}
+.topnav a{
+    float:left;
+    display:block;
+    color:black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size : 1.25em;
+    padding: 20px 22px;
+    text-decoration: none;
+    
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+.homepage{
+    font-family:Helvetica;
+    color:white;
+    background-image: url('placeholderImage.jpg');
+    background-position: center top;
+	background-size: cover;
+    padding: 250px 0;
+	margin: 30px;
+    text-align: center;
+}
+.findUs{
+    background-color: lightgray;
+    padding-left: 10px;
+    color:black;
+    font-size:1.25em;
+    border-bottom-style: solid;
+    border-bottom-color: #bb0000;
+    border-bottom-width: 20px;
+    padding-bottom: 10px;
+}
+body{
+    background-color: #666666;
+}
+#aboutUsImages{
+    display:inline-block;
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+.bio{
+    background-color: lightgray;
+    overflow: hidden;
+    height: 1%;
+    margin-top: 10px;
+}
+
+.bio div{
+    float:left;
+    
+}
+.bio_container{
+/*
+    border-left-style:solid;
+    border-left-color: black;
+    border-left-width: 1px;
+    border-right-style:solid;
+    border-right-color: black;
+    border-right-width: 1px;
+    
+*/
+/*    float:left;*/
+    width:33%;
+    height: 100%;
+    display: table-column;
+    background-color: lightgray;
+}
+
+.bio_container img{
+    width: 40%;
+    height: auto;
+    float:left;
+    display: inline-block;
+}
+
+img {
+    image-orientation: from-image;
+}

@@ -1,0 +1,9 @@
+1. set up image gallery
+2. ensure sizing of photos on officer page works
+3. fill out officer page
+4. add images to image gallery
+5. add images to about us
+6. pay for / set up domain redirecting
+7. configure for angular
+8. add about fencing page
+9. add events page (volunteer and tournaments)

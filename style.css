@@ -1,8 +1,17 @@
+/* reset for spacing */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.top {
+    padding-top: 15px;
+}
+
 .topnav{
     background-color:#bb0000;
     overflow: hidden;
     border: solid black 1px;
-
 }
 .topnav a{
     float:left;
@@ -13,7 +22,6 @@
     font-size : 1.25em;
     padding: 20px 22px;
     text-decoration: none;
-    
 }
 .topnav a:hover {
   background-color: white;
@@ -28,7 +36,8 @@
     font-family: sans-serif;
     vertical-align: top;
     border: solid black 1px;
-    
+    padding-top: 15px;
+    padding-bottom: 15px;
     }
 .footer p{
     margin-left: 10px;

@@ -4,6 +4,15 @@
     margin: 0px;
 }
 
+/* this is the standard css value for p. done to override the * specification above */
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .top {
     padding-top: 15px;
 }

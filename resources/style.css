@@ -119,7 +119,9 @@ body{
     display: table-column;
     background-color: lightgray;
 }
-
+.bio_container h4{
+    line-height: 300%;
+}
 .bio_container img{
     width: 40%;
     height: auto;

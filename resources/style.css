@@ -125,8 +125,13 @@ body{
 .bio_container img{
     width: 40%;
     height: 310px;
-    float:left;
+    float:right;
     display: inline-block;
+    margin-left: 10px;
+}
+
+.bio_container img:hover {
+    border: 1px solid #777;
 }
 
 img {

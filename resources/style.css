@@ -124,7 +124,7 @@ body{
 }
 .bio_container img{
     width: 40%;
-    height: auto;
+    height: 310px;
     float:left;
     display: inline-block;
 }

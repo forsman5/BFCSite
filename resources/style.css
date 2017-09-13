@@ -15,6 +15,7 @@ p {
 
 .top {
     padding-top: 15px;
+    background-color:#000000;
 }
 
 .topnav{
@@ -159,14 +160,14 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
-
 /* end image galllery */
+
 .small {
   color: #bb0000;
 }
 
 .bfc {
-    /* can change color here if needed */
+    color: #ffffff;
 }
 
 .titleUnderline {

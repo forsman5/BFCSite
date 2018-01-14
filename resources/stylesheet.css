@@ -9,6 +9,7 @@ html, body, #fullheight {
     color:white;
 }
 .bg{
+    margin-top: 0px;
     /* The image used */
     background-image: url("fencingBanner1.jpg");
     /* Full height */
@@ -28,3 +29,13 @@ html, body, #fullheight {
     text-shadow: 2px 2px 2px black;
     color:white;
 }
+.footer{
+    padding-top: 10px;
+    margin-bottom: 0;
+    background:#D9230F;
+    color:white;
+    font-size:1.5em;
+    align-content: center;
+    text-align: center;
+}
+

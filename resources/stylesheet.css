@@ -10,7 +10,7 @@ html, body, #fullheight {
 .navbarFont{
     font-size: 2em;
     color:white;
-}
+} 
 .bg{
     margin-top: 0px;
     /* The image used */
@@ -100,4 +100,14 @@ html, body, #fullheight {
 .info{
     display: inline;
     width: 30%;
+}
+.centeredHeader{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.caption{
+    font-size: 1.2em;
 }

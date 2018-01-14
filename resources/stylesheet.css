@@ -119,3 +119,8 @@ html, body, #fullheight {
 .movedDown{
     margin-top: 50px;
 }
+.navLogo{
+    font-size: 2em;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}

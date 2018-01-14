@@ -1,3 +1,5 @@
 #!/bin/sh
-html-partials-compiler ./html/index.html > ./dist/index.html
-html-partials-compiler ./html/findUs.html > ./dist/findUs.html
+for file in ./html/*.html; do
+    name=$(basename "$file" ".html")
+    html-partials-compiler ./html/$name.html > ./dist/$name.html
+done

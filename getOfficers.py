@@ -1,8 +1,13 @@
 import os
 import sys
 
+#TODO: Ordering
+
 #where the officer data is stored
 DATA_DIR = "data"
+
+#where the images are stored
+IMAGE_PATH = "../resources/officer_photos/"
 
 #THIS WILL NOT WORK IF THERE ARE ANY SPACES IN YOUR PATH TO THIS REPO!!
 #Remove any spaces and try again if that is the case
@@ -24,4 +29,4 @@ for filename in os.listdir(DATA_DIR):
 
     #output the partial with the filled in data
     #this is captured by the html-partials-compiler, and placed directly into the html
-    print(read_data.format(name = nm, position = lines[0], major = lines[1], hometown = lines[1], bio = lines[3]))
+    print(read_data.format(name = nm, position = lines[0], major = lines[1], hometown = lines[2], email = lines[3], bio = lines[4], image1 = IMAGE_PATH + lines[5], image2 = IMAGE_PATH + lines[6]))

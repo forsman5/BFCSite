@@ -25,6 +25,12 @@ html, body, #fullheight {
   	justify-content: center;
   	align-items: center;
 }
+.coloredBg{
+    background-color: #373a3c;
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
 .displayText{
     text-shadow: 2px 2px 2px black;
     color:white;
@@ -46,4 +52,25 @@ html, body, #fullheight {
 .navStyling{
     margin-bottom: 0px;
     
+}
+.textBox{
+    padding: 20px;
+     width:80%;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+.smallerHeader{
+    margin-bottom: 20px;
+}
+#aboutUsImages{
+    display:inline-block;
+    text-align:center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

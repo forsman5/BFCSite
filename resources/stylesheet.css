@@ -82,6 +82,7 @@ html, body, #fullheight {
 .officerImages{
     float: right;
     display:inline; 
+    align-content: right;
 }
 .officerBox{
      padding: 20px;
@@ -95,11 +96,11 @@ html, body, #fullheight {
 }
 .officerImage{
     display: inline;
-    height: 100px;
-    width: 100px;
-    margin-right: 10px;
-
+    height: 200px;
+    width: 200px;
+    margin-right: 0px;
     
+ 
 }
 .info{
     display: inline;

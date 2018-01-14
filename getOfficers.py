@@ -1,7 +1,10 @@
 import os
 import sys
 
-#TODO: Ordering
+#Ordering: Officers will show up as their files are named.
+#Whatever is before the dash is just used to order the files in the directory, and
+#will be discarded. Alphabetical is recommended
+# A-name.txt shows up first, then B, etc
 
 #where the officer data is stored
 DATA_DIR = "data"
@@ -21,7 +24,7 @@ for filename in os.listdir(DATA_DIR):
     #read each officer and fill their info in
 
     #name of the officer - taken from the name of the file
-    nm = os.path.splitext(filename)[0]
+    nm = os.path.splitext(filename)[0].split('-')[1]
 
     # open the file with the found fileanme for reading
     with open(DATA_DIR + "/" + filename) as f:

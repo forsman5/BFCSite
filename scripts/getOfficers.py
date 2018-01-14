@@ -7,7 +7,7 @@ import sys
 # A-name.txt shows up first, then B, etc
 
 #where the officer data is stored
-DATA_DIR = "../resources/data"
+DATA_DIR = "resources/data"
 
 #where the images are stored
 IMAGE_PATH = "../resources/officer_photos/"

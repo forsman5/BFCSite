@@ -8,5 +8,5 @@ jspm_packages/
 # dotenv environment variables file
 .env
 
-#in the future?
-#./dist
+#post compile
+dist/

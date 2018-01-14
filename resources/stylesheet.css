@@ -1,4 +1,7 @@
 
+body{
+    background-color: #373a3c;
+}
 html, body, #fullheight {
     min-height: 100% !important;
     height: 100%;
@@ -7,7 +10,7 @@ html, body, #fullheight {
 .navbarFont{
     font-size: 2em;
     color:white;
-}
+} 
 .bg{
     margin-top: 0px;
     /* The image used */
@@ -25,12 +28,14 @@ html, body, #fullheight {
   	justify-content: center;
   	align-items: center;
 }
+/*
 .coloredBg{
     background-color: #373a3c;
     height: 100%;
     margin-top: 0px;
     padding-top: 0px;
 }
+*/
 .displayText{
     text-shadow: 2px 2px 2px black;
     color:white;
@@ -40,14 +45,10 @@ html, body, #fullheight {
     margin-right: 15px;
 }
 .footer{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 0;
-    background:#D9230F;
-    color:white;
-    font-size:1.5em;
-    align-content: center;
     text-align: center;
+    align-content: center;
+    padding: 5px;
+
 }
 .navStyling{
     margin-bottom: 0px;
@@ -99,4 +100,14 @@ html, body, #fullheight {
 .info{
     display: inline;
     width: 30%;
+}
+.centeredHeader{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.caption{
+    font-size: 1.2em;
 }

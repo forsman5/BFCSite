@@ -1,0 +1,13 @@
+<!-- head -->
+<!partial src="../partials/head.html">
+<!-- header -->
+<!partial src="../partials/header.html" run="python scripts/processHeaders.py photos">
+
+<div class = "coloredBg">
+    <br >
+    <h3 class="display-3 centeredHeader">Photo Gallery</h3>
+    <!partial src="../partials/image_row.html" run="python scripts/getPhotos.py">
+</div>
+
+<!-- footer -->
+<!partial src="../partials/footer.html">

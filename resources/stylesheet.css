@@ -128,3 +128,6 @@ html, body, #fullheight {
 .headerActive {
     background-color: #373a3c;
 }
+.author{
+    font-size: 0.8em;
+}

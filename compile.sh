@@ -4,3 +4,7 @@ for file in ./html/*.html; do
     html-partials-compiler ./html/$name.html > ./docs/$name.html
 done
 
+cd docs
+rm -r resources
+cd ..
+cp -r resources docs/resources

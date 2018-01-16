@@ -9,4 +9,4 @@ jspm_packages/
 .env
 
 #post compile
-dist/
+#docs/

@@ -97,9 +97,10 @@ html, body, #fullheight {
 }
 .officerImage{
     display: inline;
-    height: 200px;
-    width: 200px;
+    max-width: 100%;
+    max-height: auto;
     margin-right: 0px;
+    object-fit: contain;
 
 
 }
